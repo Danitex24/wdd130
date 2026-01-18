@@ -1,13 +1,25 @@
 nav{
 background-color: #abe;
-color: #eee;
 padding: 10px;
-display: block;
-font-size: 1.5rem;
+}
+
+nav a{
+    color: #eee;
+    padding: 10px;
+    display: block;
+    font-size: 1.5rem;
 }
 
 main{
 max-width: 840px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    box-shadow: 20px 15px 20px #333;
+    border: 1px solid #abe;
+    padding: 10px;
 }
 
 aside{
@@ -21,11 +33,6 @@ text-align: center;
 }
 aside img{
 width: 200px;
-height: auto;
-}
-
-main img{
-width: 150px;
 height: auto;
 }
 

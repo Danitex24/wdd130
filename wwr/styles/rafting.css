@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
     color: var(--text-color);
     background-color: white;
     line-height: 1.6;

@@ -1,11 +1,11 @@
 /* Root Variables */
 :root {
-    --primary-color: #1700d5;
+    --primary-color: #0057b8;
     --secondary-color: #f2f2f2;
     --text-color: #333333;
     --heading-font: "Georgia", serif;
     --body-font: "Arial", sans-serif;
-    --accent1-color: rgba(23, 0, 213, 0.7);
+    --accent1-color: #0057b8;
 }
 
 /* Reset */
@@ -125,14 +125,11 @@ nav ul li a:hover {
 
 
 .hero article {
-    background: white;
     padding: 1rem;
-    border: 1px solid #ccc;
     display: flex;
     gap: 1rem;
     align-items: center;
     justify-content: space-between;
-    margin-top: 300px;
     position: relative;
     z-index: 3;
 }
@@ -140,6 +137,7 @@ nav ul li a:hover {
 .hero article img {
     max-width: 100px;
     border-radius: 5px;
+    float: right;
 }
 
 .hero article p {
@@ -228,6 +226,7 @@ footer {
 
 footer .socialmedia {
     margin-top: 1rem;
+    text-decoration: none;
 }
 
 footer .socialmedia a img {

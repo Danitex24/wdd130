@@ -64,10 +64,10 @@ nav ul li a:hover {
 
 /* Hero */
 .hero {
+    position: relative;
     background: var(--secondary-color);
     padding: 2rem;
     text-align: center;
-    position: relative;
     min-height: 600px;
 }
 
@@ -75,10 +75,6 @@ nav ul li a:hover {
     display: block;
     width: 100%;
     height: auto;
-}
-
-.about-us-img {
-    max-width: 100%;
 }
 
 /* Hero Heading */
@@ -98,7 +94,6 @@ nav ul li a:hover {
     transform: translateX(-50%);
     z-index: 10;
 }
-
 
 .hero-mission {
     position: absolute;
@@ -130,7 +125,7 @@ nav ul li a:hover {
     gap: 1rem;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
     z-index: 3;
 }
 
@@ -145,7 +140,10 @@ nav ul li a:hover {
     flex: 1;
     text-align: left;
 }
-
+.
+about-us-img {
+    max-width: 100%;
+}
 /* History Section */
 .history {
     background: #f9f9f9;
@@ -224,8 +222,10 @@ footer {
     margin-top: 2rem;
 }
 
-footer .socialmedia {
+.socialmedia {
     margin-top: 1rem;
+}
+.socialmedia a {
     text-decoration: none;
 }
 

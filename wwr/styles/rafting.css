@@ -28,7 +28,7 @@ main,
 footer {
     max-width: 960px;
     margin: 0 auto;
-    padding: 1rem;
+    /*padding: 1rem;*/
 }
 
 /* Header */
@@ -37,7 +37,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary-color);
-    padding: 1rem 2rem;
+    /*padding: 1rem 2rem;*/
 }
 
 header img.logo {
@@ -48,6 +48,7 @@ nav ul {
     display: flex;
     gap: 2rem;
     list-style: none;
+    margin-right: 1.9rem;
 }
 
 nav ul li a {
@@ -66,7 +67,7 @@ nav ul li a:hover {
 .hero {
     position: relative;
     background: var(--secondary-color);
-    padding: 2rem;
+    /*padding: 2rem;*/
     text-align: center;
     min-height: 600px;
 }
@@ -187,8 +188,9 @@ nav ul li a:hover {
 }
 
 .gallery {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
     margin-top: 1rem;
 }
 
@@ -202,6 +204,7 @@ nav ul li a:hover {
     object-fit: cover;
     border: 1px solid #ccc;
     margin-bottom: 0.5rem;
+    justify-self: center;
 }
 
 .gallery figcaption {

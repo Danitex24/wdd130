@@ -33,15 +33,20 @@ footer {
 
 /* Header */
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-content: space-between;
     background-color: var(--primary-color);
-    /*padding: 1rem 2rem;*/
 }
 
+/* Logo */
 header img.logo {
     max-height: 80px;
+}
+
+/* Navigation */
+nav {
+    justify-self: end;
 }
 
 nav ul {
@@ -49,6 +54,7 @@ nav ul {
     gap: 2rem;
     list-style: none;
     margin-right: 1.9rem;
+    padding: 0;
 }
 
 nav ul li a {
@@ -145,34 +151,31 @@ nav ul li a:hover {
 .history {
     background: #f9f9f9;
     padding: 2rem;
-    text-align: center;
     margin-top: 2rem;
+}
+
+/* History Section */
+.history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    /* align-items: center; */
+    padding: 3rem 2rem;
+}
+
+.history img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .history h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     margin-bottom: 1rem;
+    text-align: center;
 }
 
-.history-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-}
-
-.history-content p {
-    flex: 1;
-    text-align: left;
-}
-
-.history-content img {
-    max-width: 150px;
-    background: var(--primary-color);
-    padding: 1rem;
-    border-radius: 5px;
-}
 
 /* Adventure Section */
 .adventure {

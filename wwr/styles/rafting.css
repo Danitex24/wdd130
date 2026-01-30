@@ -149,18 +149,14 @@ nav ul li a:hover {
 }
 /* History Section */
 .history {
-    background: #f9f9f9;
-    padding: 2rem;
-    margin-top: 2rem;
-}
-
-/* History Section */
-.history {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     /* align-items: center; */
     padding: 3rem 2rem;
+    margin-top: 2rem;
+    background: #f9f9f9;
+
 }
 
 .history img {
